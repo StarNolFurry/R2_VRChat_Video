@@ -1,11 +1,11 @@
-name = "r2-video-worker"
+name = 'r2-vrchat-video'
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 
 # R2 存储桶绑定
 [[r2_buckets]]
 binding = "VIDEOS_BUCKET"
-bucket_name = "your-video-bucket"
+bucket_name = "https://a69c607f7ada3aeea2b0cf0c5a86f6bc.r2.cloudflarestorage.com/vrchatmv"
 
 # KV 存储绑定
 [[kv_namespaces]]
