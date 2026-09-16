@@ -1,0 +1,2 @@
+# R2_VRChat_Video
+一款基于Cloud Flare Worker和R2存储的VRChat视频本地转云端链接项目
