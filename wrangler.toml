@@ -1,0 +1,18 @@
+name = "r2-video-worker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# R2 存储桶绑定
+[[r2_buckets]]
+binding = "VIDEOS_BUCKET"
+bucket_name = "your-video-bucket"
+
+# KV 存储绑定
+[[kv_namespaces]]
+binding = "VIDEO_INDEX"
+id = "your-kv-namespace-id"
+
+# 环境变量（部署时请覆盖）
+[vars]
+ADMIN_URL = "/admin-secret-path"
+# ADMIN_PASS 和 SESSION_SECRET 请通过 wrangler secret put 设置，不要写入此处

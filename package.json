@@ -1,0 +1,14 @@
+{
+  "name": "r2-video-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker + R2 视频托管，用于 VRChat 房间播放器",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
